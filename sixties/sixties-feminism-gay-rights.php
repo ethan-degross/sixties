@@ -28,10 +28,14 @@ get_header(); ?>
 			</div>
 			<p>
 				The emerging second-wave feminist movement focused on equality in several realms, including women’s reproductive rights, pay equity, access to child care, and equal opportunity in the workplace. Gay Liberation Front, founded in 1970, was the first such university-recognized student organization in the U.S.
+			</p>
+		</div>
+		<div class="owl-carousel sixtiesImages">
+		<?php
+		echo do_shortcode('[pods name="slide" template="Slide (standard)" orderby="slide_sort_order" where="slidesyndication.slug=\'feminism-and-gay-rights\'"]');
+		 ?>
 		</div>
 </div>
-<div id="coming-soon" align="center">
-		<img src="http://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_WebDesign_ComingSoon.png" alt="Content Coming Soon!">
-</div>
+
 
 <?php get_footer(); ?>

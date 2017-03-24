@@ -27,9 +27,9 @@ get_header(); ?>
 
 	<p>Rob Shepard, GIS Specialist, developed the map application using ESRI’s ArcGIS JavaScript API version 3. University of Iowa students Emma Dellopoulous, Christina Jensen, and Gemmicka Piper contributed research for map layers.</p>
 
-	<p>Heidi Bartlett, Creative Designer, created the site design.</p>
+	<p>Heidi Bartlett, Creative Designer, created the site design. Emma Husar, Undergraduate Researcher, assisted with video editing.</p>
 
-	<p>University Archivist, David McCartney, identified archival collection materials which were then digitized by the UI Libraries Preservation & Conservation department, coordinated by Bethany Davis, Digital Processing Coordinator Librarian, and Ben Bessman, Digitization Assistant. Special Collections staff including Alonso Avila, Candida Pagan, and John Fifield assisted with oral history interviews. Mark Anderson, Digital Collections Librarian, facilitated the integration of digital content into the site. Mark also manages the <a href ="http://digital.lib.uiowa.edu/">Iowa Digital Library</a> where the digital content is archived in full and made freely available.</p>
+	<p>David McCartney, University Archivist, and Denise Anderson, Archives Assistant, identified archival collection materials which were then digitized by the UI Libraries Preservation & Conservation department, coordinated by Bethany Davis, Digital Processing Coordinator Librarian, and Ben Bessman, Digitization Assistant. Special Collections staff including Alonso Avila, Candida Pagan, and John Fifield assisted with oral history interviews. Mark Anderson, Digital Collections Librarian, facilitated the integration of digital content into the site. Mark also manages the <a href ="http://digital.lib.uiowa.edu/">Iowa Digital Library</a> where the digital content is archived in full and made freely available.</p>
 
 	<p><i>Uptight and Laid-back</i> is part of a WordPress Multi-Site which is hosted on a LAMP server.  Site administrators, Ethan DeGross, Matt Butler, and Ken Clinkenbeard, constructed and maintain the site.</p>
 
@@ -51,12 +51,12 @@ Contact David McCartney
 
 <div id="colophon-footer-logo">
 	<a href="https://www.uiowa.edu/">
-		<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW_IOWA_1.png"/>
+		<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW_IOWA_1.png" alt="University Logo"/>
 	</a>
 </div>
 <div id="colophon-footer-logo1">
 	<a href="https://www.lib.uiowa.edu/">
-		<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW2_1.png"/>
+		<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW2_1.png" alt="University Librabry Logo"/>
 </a>
 </div>
 </div>

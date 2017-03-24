@@ -29,9 +29,12 @@ get_header(); ?>
 			<p>
 				Movies, books, TV, and rock and roll radio = a college student’s four food groups of popular culture in the 1960s. Before Saturday Night Live, there were late-night movies, and Action A-Go-Go was Channel 7’s answer to American Bandstand. Tune in and turn on!
 		</div>
+		<div class="owl-carousel sixtiesImages">
+		<?php
+		echo do_shortcode('[pods name="slide" template="Slide (standard)" orderby="slide_sort_order" where="slidesyndication.slug=\'popular-culture\'"]');
+		 ?>
+		</div>
 </div>
-<div id="coming-soon" align="center">
-		<img src="http://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_WebDesign_ComingSoon.png" alt="Content Coming Soon!">
-</div>
+
 
 <?php get_footer(); ?>

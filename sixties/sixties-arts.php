@@ -33,6 +33,7 @@ get_header(); ?>
 			</div>
 			<p>
 				Exceptional innovation defined the burgeoning campus and community arts scene during the 1960s. In less than four years – between 1965 and 1969 – the Center for New Music, the Center for New Performing Arts, the International Writing Program, and the intermedia program at the School of Art and Art History – the first of its kind in the country – were established.
+			</p>
 		</div>
 <div class="owl-carousel sixtiesImages">
 <?php

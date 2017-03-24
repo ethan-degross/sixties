@@ -20,13 +20,13 @@ Template Name:  sixties-home (no sidebar)
  * @since          available since Release 1.0
  */
 
-get_header(); ?>
-<head>
+get_header(); ?><head>
 <title>The Sixties | Uptight & Laid Back, Iowa City in the 1960s</title>
 <meta name="description" content="Welcome to Iowa City in the sixties.  Were you enrolled at the University of Iowa during this decade?  Our site transports you to that time on several fronts: anti-war protest, military service, civil rights, the local arts scene, relaxing of students’ rules of conduct, and more. The exhibit highlights events with images, documents, sounds, and film footage."/>
 <meta name="keywords" content="University of Iowa, 1960's, 1960s, sixties, Iowa City, State University of Iowa, Alumni, University Library, Archives, Interactive Map, Anti-War Protests, vietnam, war protests, history, Iowa City History"/>
 <meta name="robots" content="index, follow"/>
 </head>
+
 <div id="content-full" class="grid col-940">
 	<div class="header section">
 
@@ -71,7 +71,7 @@ get_header(); ?>
 				<a href="http://dsps.lib.uiowa.edu/sixtiesmap/">
 				<img class="alignnone size-full wp-image-13" src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/03/1960s_WebDesign_Map_Button-1.png" alt="A circular button with the text, Visit 1960's map of Iowa City, Iowa" style="margin-top:15px !important; margin-right:0px; margin-left:0px;"/>
 				</a>
-				<a href="https://dsps.lib.uiowa.edu/sixties/submission-page/">
+				<a href="http://dsps.lib.uiowa.edu/sixties/gallery/">
 				<img class="alignnone size-full wp-image-13" src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/03/1960s_WebDesign_Gallery_Button-1.png" alt="A circular button with the text, see submitted gallery content here" style="margin-top:15px !important; margin-right:0px; margin-left:0px;"/>
 			</a>
 			<div id="arrow-bounce">
@@ -94,81 +94,67 @@ get_header(); ?>
 			</div>
 			<div align="center">
 				<a href="http://dsps.lib.uiowa.edu/sixtiesmap/">
-			<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/02/1960s_WebDesign_MAP.png" alt="1960s_WebDesign_MAP" width="1597" height="975" class="alignnone size-full wp-image-93" />
+			<img src="http://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/12/1960s_WebDesign_MAP-compressor.png" alt="1960s_WebDesign_MAP" width="1597" height="975" class="alignnone size-full wp-image-93" />
 				</a>
 			</div>
 			</div>
 
-
+			<a name="video"></a>
 				<div id="showcase-video">
 						<div class="custom-heading">
 							Videos
 						</div>
-						<div id="showcase-video-content" align="center">
-
-
-
-											<video width="320" height="240" preload="none" controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/05/new_Video03.png">
-												<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/videoD.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-											<video width="320" height="240" preload="none"controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/05/new_Video01.png">
-												<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/videoE.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-											<video width="320" height="240" preload="none" controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/05/new_Video02.png">
-												<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/videoF.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
+						<div class="owl-carousel sixtiesVideo">
+							<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=uA5DRsrIxiw&index=7&list=PLaLWoNF6j2ckal0nED9lrbZCylVs3vcuM">Video 1</a></div>
+							<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=QseIHT9isZs&index=6&list=PLaLWoNF6j2ckal0nED9lrbZCylVs3vcuM">Video 2</a></div>
+							<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=QhpkqfR2qVw&index=4&list=PLaLWoNF6j2ckal0nED9lrbZCylVs3vcuM">Video 3</a></div>
+							<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=kJ33Xa1fNVM&index=3&list=PLaLWoNF6j2ckal0nED9lrbZCylVs3vcuM">Video 4</a></div>
+							<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=eWPNf7Teeak&index=2&list=PLaLWoNF6j2ckal0nED9lrbZCylVs3vcuM">Video 5</a></div>
+							<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=jKNPPKiYEwg&index=1&list=PLaLWoNF6j2ckal0nED9lrbZCylVs3vcuM">Video 6</a></div>
+							<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=lQ1r9wRKyFE&feature=youtu.be">Video 7</a></div>
 						</div>
 			</div>
 
-					<!-- If in the future we get more videos and decide to go with YouTube, or Vimeo.
 
-					<div class="owl-carousel sixtiesVideo">
-					    <div class="item-video" data-merge="3"><a class="owl-video" href="http://vimeo.com/23924346"></a></div>
-					    <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ"></a></div>
-					    <div class="item-video" data-merge="2"><a class="owl-video" href="http://www.youtube.com/watch?v=FBu_jxT1PkA"></a></div>
-					    <div class="item-video" data-merge="1"><a class="owl-video" href="http://www.youtube.com/watch?v=oy18DJwy5lI"></a></div>
-					    <div class="item-video" data-merge="2"><a class="owl-video" href="http://www.youtube.com/watch?v=H3jLkJrhHKQ"></a></div>
-					    <div class="item-video" data-merge="3"><a class="owl-video" href="https://www.youtube.com/watch?v=g3J4VxWIM6s"></a></div>
-					    <div class="item-video" data-merge="1"><a class="owl-video" href="http://www.youtube.com/watch?v=0fhoIate4qI"></a></div>
-					    <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
-					</div>
-						</div>
-					-->
-
-
-
+<a name="audio"></a>
 		<div id="showcase-audio">
+
 				<div class="custom-heading">
 					Audio
 				</div>
-					<div id="showcase-audio-content" align="center">
-						<div id="audio-box-2">
-								<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/newA_1960s_WebDesign_FrankPatton_Audio.png"/>
-							<audio controls preload="none">
-								<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/echoesOldGold.mp3" type="audio/mpeg">
-									Your browser does not support the audio element.
-							</audio>
-						</div>
+				<div class="owl-carousel sixtiesVideo">
+					<div class="item-video" data-merge="1"><a class="owl-video" href="//www.youtube.com/watch?v=V22z_RnpBFU&feature=youtu.be">Audio 1</a></div>
+					<div id="video_1" class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=x_-myiADv4U">Audio 2</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=z43PxMCrr9s&feature=youtu.be">Audio 3</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=mfhx8jWipes&feature=youtu.be">Audio 4</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=CttAuLMrbZU&feature=youtu.be">Audio 5</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=8KavB_wnvQ8">Audio 6</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=Cs2w7jT-CSU&feature=youtu.be">Audio 7</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=1pjXTjxMIyM&feature=youtu.be">Audio 8</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=uV_LFjts71o&feature=youtu.be">Audio 9</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=LM5ou4R85V4&feature=youtu.be">Audio 10</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=qNJM3soynx4&feature=youtu.be">Audio 11</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=i_BIDXKCV-0&feature=youtu.be">Audio 12</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=iAm9yM_wsyA&feature=youtu.be">Audio 13</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=QRd3l4FFMSE&feature=youtu.be">Audio 14</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=d17ak5_KviA&feature=youtu.be">Audio 15</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=oM9q-8sO-5U&feature=youtu.be">Audio 16</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=MlFYJO4RAMA&feature=youtu.be">Audio 17</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=OIujtFPyYIw&feature=youtu.be">Audio 18</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=3Z0Nvmh3tIo&feature=youtu.be">Audio 19</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=_p-GDPuCYw0&feature=youtu.be">Audio 20</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=tmW-H5dbg5o&feature=youtu.be">Audio 21</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=sI22Iuo1dZE&feature=youtu.be">Audio 22</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=scYVBR7Wzyg">Audio 23</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=7xCeVAh8uhI&feature=youtu.be">Audio 24</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=RDPlenOMCv0">Audio 25</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=vytZ4fZEoEM&feature=youtu.be">Audio 26</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=16iPQcdNzkE&feature=youtu.be">Audio 27</a></div>
+					<div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=o7aMy-gfeRE&feature=youtu.be">Audio 28</a></div>
 
-						<div id="audio-box-3">
-								<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/new_1960s_WebDesign_Smothers_Audio.png"/>
-							<audio controls preload="none">
-									<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/03/WalcoffTape-5-SmothersBrothersInterviewAt-IMU-1962_01.mp3" type="audio/mpeg">
-								Your browser does not support the audio element.
-							</audio>
-						</div>
 
-						<div id="audio-box-4">
-								<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/new_1960s_WebDesign_Judy_Audio.png"/>
-							<audio controls preload="none">
-								<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/03/WalcoffTape-6-JudyWalcoffonFashion-1958.mp3" type="audio/mpeg">
-									Your browser does not support the audio element.
-							</audio>
-						</div>
-					</div>
+
+				</div>
 		</div>
 
 
@@ -186,13 +172,12 @@ get_header(); ?>
 
 		<div id="sixties-footer">
 			<div id="sixties-footer-inner">
-			<a href="https://dsps.lib.uiowa.edu/sixties/submission-page/" target="blank"><img class="alignnone size-full wp-image-91" src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/02/footer-submit-text.png" alt="footer-submit-text" width="1480" height="257" />
+			<a href="https://dsps.lib.uiowa.edu/sixties/submission-page/" target="blank"><img class="alignnone size-full wp-image-91" src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/02/footer-submit-text.png" alt="footer-submit-text" width="1480" height="257" /></a>
 			</div>
-		</a>
+
 		<div id="sixties-footer-inner1">
 			<img class="alignnone size-full wp-image-91" src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_Contact_Transparent.png" alt="Contact-us-text"/>
 		</div>
-	</a>
 			<div id="sixties-footer-inner2">
 				<span style="color:white; font-family: roboto slab;">Questions, comments, suggestions?</span></br>
 				Contact David McCartney</br>
@@ -201,12 +186,12 @@ get_header(); ?>
 
 			<div id="sixties-footer-logo">
 				<a href="https://www.uiowa.edu/">
-					<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW_IOWA_1.png"/>
+					<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW_IOWA_1.png" alt="University Logo"/>
 				</a>
 			</div>
 			<div id="sixties-footer-logo1">
 				<a href="https://www.lib.uiowa.edu/">
-					<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW2_1.png"/>
+					<img src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/UIowa_Libraries_Logo_NEW2_1.png" alt="University Library Logo"/>
 			</a>
 			</div>
 		</div>

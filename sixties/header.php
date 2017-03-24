@@ -43,11 +43,19 @@ if ( !defined( 'ABSPATH' ) ) {
 		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link rel="stylesheet" href="/wp-content/scripts/owl-carousel-2/assets/owl.carousel.css">
-		<script type='text/javascript' src='/wp-content/scripts/owl-carousel-2/owl.carousel.min.js'></script>
+		<script type='text/javascript' src='/scripts/owl-carousel-2/owl.carousel.min.js'></script>
 		<script type='text/javascript' src='/wp-content/scripts/custom/owl.carousel.2.js'></script>
-		<script type='text/javascript' src='/ethan_sixties/wp-content/scripts/custom/main.js'></script>
+		<script type='text/javascript' src='/wp-content/scripts/custom/main.js'></script>
 
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+		  ga('create', 'UA-61639511-2', 'auto');
+		  ga('send', 'pageview');
+		</script>
 
 		<?php wp_head(); ?>
 	</head>
@@ -86,9 +94,6 @@ if ( !defined( 'ABSPATH' ) ) {
 
 		<?php if ( !get_header_image() ) : ?>
 
-<a href="<?php echo home_url( '/' ); ?>">
-			<div id="logo">
-			</div><!-- end of #logo --></a>
 		<?php endif; // header image was removed (again) ?>
 
 		<?php get_sidebar( 'top' ); ?>
