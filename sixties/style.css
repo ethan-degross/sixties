@@ -13,7 +13,36 @@
   width:19%;
   overflow:hidden;
 }*/
-
+#sourcewords{
+  margin-right:10px;
+  color: black;
+}
+#source{
+  background-color: #FBE03F;
+  margin: 0!important;
+}
+#rotclink{
+  color:black;
+}
+#samtitle{
+  color: #EE372A;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "roboto slab", Georgia, Serif;
+    font-size: 18px;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+}
+#single-rotc-album-container{
+  text-align: center;
+  background-color: #FBE03F;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.single-rotc-album img{
+  height: 300px;
+}
 
 .owl-nav{
 
